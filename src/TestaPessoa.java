@@ -3,11 +3,13 @@ public class TestaPessoa {
 
     public static void main(String[] args) {
         
-        Pessoa d = new Pessoa();
-        d.idade = 20;
-        d.nome = "Lucas";
-        d.CPF = "00000000101";
+        Pessoa p = new Pessoa();
+        p.peso = 50;
+        p.altura = 175;
         
+        double i = p.imc();
+        
+        System.out.println("IMC: " + i);
         
     }
 
