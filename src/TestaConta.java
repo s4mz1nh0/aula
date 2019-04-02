@@ -18,6 +18,9 @@ public class TestaConta {
         c2.agencia = "007";
         c2.numero = "999";
         
+        c2.depositar(100);
+        c2.transferir(200, c1);
+        
     }
 
 }

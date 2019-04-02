@@ -20,4 +20,11 @@ public class Conta {
         
         return false;
     }
+boolean transferir(double valor,Conta destino){
+if(this.sacar(valor)){
+    destino.depositar(valor);
+return true;
 }
+return false;
+}
+} 
